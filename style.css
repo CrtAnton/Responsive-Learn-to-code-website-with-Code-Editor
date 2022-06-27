@@ -1,0 +1,59 @@
+
+*{margin: 0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+.image-container{
+    display: inline-block;
+}
+body{
+    text-align: center;
+   
+}
+h2{
+    margin: 4% auto;
+}
+hr{
+    max-width: 50%;
+    margin: 3% auto;
+    height: 6px;
+    border-radius: 5px;
+    background: linear-gradient(90deg, #f1672c, #62bce4, #f1bf26);
+}
+.image-container{
+    margin: 2% auto;
+}
+.desc{
+    margin:3% auto;
+    border-radius: 25px;
+}
+.container{
+    margin: 3% 5%;
+    
+}
+a{
+    text-decoration: none;
+}
+a:link, a:visited {
+color: black;
+}
+a:hover {
+color: red;
+}
+.htmlLogo:hover .descHtml{
+background-color: #f1672c;
+cursor: pointer;
+}
+.cssLogo:hover .descCss{
+background-color: #62bce4;
+cursor: pointer;
+}
+.jsLogo:hover .descJs{
+background-color: #f1bf26;
+cursor: pointer;
+}
+.codeLogo:hover .descCode{
+    background-color: #c1a167;
+    cursor:pointer;
+}
