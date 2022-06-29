@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="lessons.css">
+    <title>Javascript Basic</title>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <h1 class="pageTitle">Javascript Basic</h1>
+            <h2>JavaScript Can Change HTML Content</h2>
+            <p>One of many JavaScript HTML methods is getElementById().
+            </p>
+            <div class="exampleCode">
+                <h3 >Example</h3>
+                <p>The example below "finds" an HTML element (with id="demo"), and changes the element content (innerHTML) to "Hello JavaScript": </p>
+                <div  class="codeBlock">
+                    <span class="codeLineColor">
+                        <span class="tagColor"><</span> !DOCTYPE<span class="attributeColor"> html</span><span class="tagColor">></span>
+                    </span><br>
+                    <span class="codeLineColor"><span class="tagColor"><</span>html<span class="tagColor">></span></span><br>
+                    <span class="codeLineColor"><span class="tagColor"><</span>head<span class="tagColor">></span></span><br><br>
+                    <span class="codeLineColor"><span class="tagColor"><</span>style<span class="tagColor">></span></span><br><br>                    
+                    <span class="codeLineColor"><span >button</span><span>{</span><br>
+                    <span class="codeLineColor"><span class="tagColor">background-color:</span>red;<span class="tagColor"></span></span><br>
+                    <span class="codeLineColor"><span class="tagColor">color:</span>white;<span class="tagColor"></span></span><br>
+                    <span class="codeLineColor"><span class="tagColor">border-radius:</span>99px;<span class="tagColor"></span></span><br>
+                    <span class="codeLineColor"><span ></span><span>}</span><br><br>
+                    <span class="codeLineColor"><span class="tagColor"><</span>/style<span class="tagColor">></span></span><br>
+                    <span class="codeLineColor"><span class="tagColor"><</span>/head<span class="tagColor">></span></span><br><br>
+                    <span class="codeLineColor"><span class="tagColor"><</span>body<span class="tagColor">></span></span><br><br>
+                    <span class="codeLineColor no-space-right"><span class="tagColor"><</span>button<span class="attributeColor"> id=</span>"example-button"<span class="tagColor">></span></span><span class="inner-html">Click me!</span>
+                    <span class="codeLineColor no-space-left"><span class="tagColor"><</span>/button<span class="tagColor">></span></span><br><br>
+                    <span class="codeLineColor"><span class="tagColor"><</span>script<span class="tagColor">></span></span><br><br>
+                    <span class="codeLineColor">var exampleBtn = document.getElementById("example-button")<br></span>
+                    <span class="codeLineColor">exampleBtn.onclick = function(){<br></span>
+                    <span class="codeLineColor">exampleBtn.innerHTML = "Never click the red button"<br></span>
+                    <span class="codeLineColor">}</span><br>
+
+
+
+                    <span class="codeLineColor"><span class="tagColor"><</span>/script<span class="tagColor">></span></span><br><br>      
+                    <span class="codeLineColor"><span class="tagColor"><</span>/body<span class="tagColor">></span></span><br>
+                    <span class="codeLineColor"><span class="tagColor"><</span>/html<span class="tagColor">></span></span><br>
+                </div><br>
+                <button id="copyBtn">Copy Code</button>
+                <button><a href="../editor/editor.html">Try it</a></button>
+            </div>  
+            <h3>The output will be:</h3><br> 
+            <div id="code" class="codeBlockExample">    
+            <button id="example-button">Click me</button>
+            </div>
+            
+
+        </div>
+    </div>
+    <script src="page.js"></script>
+</body>
+</html>
