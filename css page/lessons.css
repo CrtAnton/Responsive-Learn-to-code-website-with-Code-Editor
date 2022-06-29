@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    margin: 2% auto;
+    
+}
+h2{
+    margin: 3% auto;
+}
+h3{
+    margin: 3% auto;
+}
+h4{
+    margin: 3% auto;
+}
+h5{
+    margin: 3% auto;
+}
+h6{
+    margin: 3% auto;
+}
+p{
+    margin: 3% auto;
+    padding:1em 2em;
+}
+.codeBlockExample h3{
+    text-align: center;
+    color:blue;
+}
+#copyBtn{
+    font-size: small;
+    display: block;
+    margin: 1em 0;
+    
+}
+a:link, a:visited {
+    color: black;
+    text-decoration: none;
+}
+button{
+    background-color: #62bce4;
+    border: none;
+    border-radius: 10px;
+    font-size: larger;
+    padding: 0.5em 1em
+}
+button:hover{
+    background-color: #62bce4;
+}
+.codeBlockExample{
+    padding:1em 2em; ;
+}
+.pageTitle{
+    text-align: center;
+}
+.content{
+    padding: 2em;
+    flex: 1 1 0;
+    
+}
+.container{
+    display: flex;
+}
+.codeLineColor{
+    padding: 1em;
+    color:brown;
+}
+.exampleCode{
+    border-radius: 5px;
+    background-color: lightgray;
+    padding: 2em;
+}
+.exampleCode .codeBlock{
+    border-radius: 3px;
+    background-color: white;
+    border-left: 5px solid #62bce4;
+}
+
+.tagColor{
+    color: blue;
+}
+.inner-html{
+    color: black;
+}
+.attributeColor{
+    color: rgb(101, 184, 211);
+}
+
+
+
